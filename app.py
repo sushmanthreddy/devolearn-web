@@ -15,7 +15,7 @@ import plotly.express as px
 
 
 def onnx_segment_membrane(input_image, threshold):
-    ort_session = ort.InferenceSession('membrane_segmentor.onnx')
+    ort_session = ort.InferenceSession('onnx_models/membrane_segmentor.onnx')
     img = Image.fromarray(np.uint8(input_image))
     resized = img.resize((256, 256), Image.NEAREST)
     img_unsqueeze = expand_dims_twice(resized)
@@ -49,7 +49,7 @@ def generate_centroid_image(thresh):
     return(centroid_image)
 
 def onnx_segment_nucleus(input_image, threshold):
-    ort_session = ort.InferenceSession('nucleus_segmentor.onnx')
+    ort_session = ort.InferenceSession('onnx_models/nucleus_segmentor.onnx')
     img = Image.fromarray(np.uint8(input_image))
     resized = img.resize((256, 256), Image.NEAREST)
     img_unsqueeze = expand_dims_twice(resized)
@@ -59,7 +59,7 @@ def onnx_segment_nucleus(input_image, threshold):
     return(resized_ret)
 
 def onnx_predict_lineage_population(input_image):
-    ort_session = ort.InferenceSession('lineage_population_model.onnx')
+    ort_session = ort.InferenceSession('onnx_models/lineage_population_model.onnx')
     img = Image.fromarray(np.uint8(input_image))
     resized = img.resize((256, 256), Image.NEAREST)
 
