@@ -242,11 +242,11 @@ selected_box = st.sidebar.selectbox(
     ('Home','Cell Membrane Segmentation','Nucleus Segmentation', 'Predict Lineage populations')
     )
 
-if selected_box == 'Home':
-    home()
+# if selected_box == 'Home':
+#     home()
 if selected_box == 'Cell Membrane Segmentation':
    cell_membrane_segmentation() 
-if selected_box == 'Nucleus Segmentation':
-    nucleus_segmentation() 
-if selected_box == 'Predict Lineage populations':
-    lineage_population_model()
+# if selected_box == 'Nucleus Segmentation':
+#     nucleus_segmentation() 
+# if selected_box == 'Predict Lineage populations':
+#     lineage_population_model()
