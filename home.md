@@ -154,9 +154,9 @@ plot.show()
 | Cell lineage population prediction + embryo GAN | [EPIC dataset](https://epic.gs.washington.edu/)                                                                                    
 
 ## Authors/maintainers:
-* [Mayukh Deb](https://twitter.com/mayukh091)
-* [Ujjwal Singh](https://twitter.com/ujjjwalll)
+* [Sushmanth Reddy](https://twitter.com)
+* [jayanth](https://twitter.com)
 * [Dr. Bradly Alicea](https://twitter.com/balicea1)
-* [Mainak Deb](https://twitter.com/MainakDeb19)
-
-Feel free to join our [Slack workspace](https://openworm.slack.com/archives/CMVFU7Q4W)!
+* [Hemanth](https://twitter.com)
+* [Venkatesh](https://twitter.com)
+* [Dr.Manzy Rashmi](https://twitter.com)
